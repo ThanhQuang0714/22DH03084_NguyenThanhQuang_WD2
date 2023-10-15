@@ -1,0 +1,54 @@
+h1 {
+    color: black;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.red {
+    color: #ff0000;
+}
+
+.green {
+    color: #00ff00
+}
+
+.blue {
+    color: #0000ff
+}
+
+.yellow {
+    color: #ffff00
+}
+
+.pink {
+    color: #ff00ff;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+
+.green {
+    color: rgb(0, 255, 0)
+}
+
+.blue {
+    color: rgb(0, 0, 255)
+}
+
+.yellow {
+    color: rgb(255, 255, 0)
+}
+
+.pink {
+    color: rgb(255, 0, 255);
+}
+
+body {
+    background-color: rgb(242, 191, 199);
+    background-image: url("../Project A/images/poster.png");
+    background-repeat: no-repeat;
+    /* ảnh mà bé quá thì ko bị lặp lại*/
+    background-position: right top;
+    margin-right: 200px;
+}

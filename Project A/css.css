@@ -1,0 +1,23 @@
+.menu-bar {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px 10px;
+  }
+  
+  .item.title {
+    font-weight: 600;
+  }
+  
+  .item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
